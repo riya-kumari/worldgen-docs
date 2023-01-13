@@ -7,9 +7,9 @@ Need to initalize settings as follows. Can choose between BLENDER_EEVEE and CYCL
 
 .. code-block:: python
 
-    set_render_engine('BLENDER_EEVEE')
-    set_metadata_properties()
-    set_image_resolution(1084, 1084, 100)
+    WorldGen.set_render_engine('BLENDER_EEVEE')
+    WorldGen.set_metadata_properties()
+    WorldGen.set_image_resolution(1084, 1084, 100)
     
     
 Setting up the simulator
@@ -21,7 +21,3 @@ To use WorldGen, first initialize by passing in the file path to the blend file,
 
    simulator = WorldGen("./test.blend")
    simulation.createScene(-122.4, 37.7865, -122.387, 37.7925)
-
-
-
-
