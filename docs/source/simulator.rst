@@ -28,3 +28,7 @@ If the scene is rural or suburbs then set isSuburbs to true for slanted roofs:
 
    simulation.createScene(-122.4, 37.7865, -122.387, 37.7925, isSuburbs=True)
 
+
+
+
+
