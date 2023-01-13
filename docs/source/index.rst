@@ -1,12 +1,8 @@
 Welcome to WorldGen's documentation!
 ===================================
 
-**Lumache** (/lu'make/) 
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**WorldGen** is an open source framework to autonomously generate countless structured and unstructured 3D photorealistic scenes
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
 
 .. note::
 
@@ -17,9 +13,11 @@ Contents
 
 .. toctree::
 
-   usage
-   api
    WorldGen
-   outputs
+   Camera
+   annotations
+   
+   
+   
    
    
