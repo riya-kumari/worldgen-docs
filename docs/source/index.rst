@@ -13,9 +13,12 @@ Contents
 
 .. toctree::
 
-   WorldGen
+   Installation
+   Simulator
    Camera
-   annotations
+   Annotations
+   API Reference
+   
    
    
    
