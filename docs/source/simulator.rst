@@ -19,5 +19,11 @@ To use WorldGen, first initialize by passing in the file path to the blend file,
 
 .. code-block:: python
 
-   simulator = WorldGen("./test.blend")
+   simulator = WorldGen("./city.blend")
    simulation.createScene(-122.4, 37.7865, -122.387, 37.7925)
+   
+If the scene is rural or suburbs then set isSuburbs to true for slanted roofs:
+.. code-block:: python
+
+   simulation.createScene(-122.4, 37.7865, -122.387, 37.7925, isSuburbs=True)
+
