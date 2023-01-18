@@ -27,6 +27,16 @@ If the scene is rural or suburbs then set isSuburbs to true for slanted roofs:
 .. code-block:: python
 
    simulation.createScene(-122.4, 37.7865, -122.387, 37.7925, isSuburbs=True)
+   
+Adding textures/materials
+------------
+
+WorldGen uses LilySurface Scrapper (https://github.com/eliemichel/LilySurfaceScraper) for importing materials for the building, roads, and terrain. If you wish to use materials other than the default ones used, you can select them from 
+
+- https://www.3dassets.one/#order=latest
+- https://polyhaven.com/textures
+- https://www.cgbookcase.com/textures/
+- https://ambientcg.com/
 
 
 
