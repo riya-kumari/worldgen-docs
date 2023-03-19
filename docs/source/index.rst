@@ -12,7 +12,6 @@ Contents
 --------
 
 .. toctree::
-
    Installation
    Simulator
    Camera
