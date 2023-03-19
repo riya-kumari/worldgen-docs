@@ -59,6 +59,7 @@ WorldGen uses LilySurface Scrapper (https://github.com/eliemichel/LilySurfaceScr
 
 Configuring weather and lighting conditions
 ------------------------------------------------
+WorldGen supports 3 different lighting conditions and 4 different weather conditions. You can also specify the background image by passing in an hdri link to the hdri_img variable.
 
 .. code-block:: python
     
