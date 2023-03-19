@@ -63,9 +63,9 @@ Configuring weather and lighting conditions
 .. code-block:: python
     
     simulation.addWeather(
-    lighting='midday' or 'sunset' or 'night', 
-    weather = 'rain', 'cloudy', 'clear', or 'fog'
-    hdri_img=""
+        lighting='midday'|'sunset'|'night', 
+        weather = 'rain'|'cloudy'|'clear'|'fog'
+        hdri_img=""
     )
 
 
