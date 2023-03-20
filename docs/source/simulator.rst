@@ -66,7 +66,7 @@ WorldGen supports 3 different lighting conditions and 4 different weather condit
     simulation.addWeather(
         lighting='midday'|'sunset'|'night', 
         weather = 'rain'|'cloudy'|'clear'|'fog'
-        hdri_img=""
+        hdri_img="" #choose from https://polyhaven.com/hdris
     )
 
 
