@@ -67,7 +67,7 @@ WorldGen supports 3 different lighting conditions and 4 different weather condit
     simulation.addWeather(
         lighting='midday'|'sunset'|'night', 
         weather = 'rain'|'cloudy'|'clear'|'fog'
-        hdri_img="" #choose from :ref:`RST Textures`
+        hdri_img="" #choose from the textures and materials libraries mentioned above
     )
 
 
